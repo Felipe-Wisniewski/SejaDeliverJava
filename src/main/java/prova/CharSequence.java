@@ -2,6 +2,10 @@ package prova;
 
 import java.util.ArrayList;
 
+/**
+ * Classe responsável por retornar uma sequência de caracteres que mais aparecem em sequência em dada palavra.
+ * @author Felipe Wisniewski
+ **/
 public class CharSequence {
     private String word;
 

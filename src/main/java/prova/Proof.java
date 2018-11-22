@@ -3,10 +3,16 @@ package prova;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Classe que contêm os métodos de interação com usuário (UI).
+ * @author Felipe Wisniewski
+ */
 public class Proof {
 
+    /**
+     * Menu para escolha de um teste.
+     */
     public static void startProof() {
-
         String escolha = null;
         Scanner scanner = new Scanner(System.in);
 
@@ -40,6 +46,9 @@ public class Proof {
         }
     }
 
+    /**
+     * Método de entrada do conjunto de inteiros e impressão do subconjunto da máxima soma.
+     */
     private static void proofSubsetMaxSum() {
         ArrayList<Integer> setNumber = new ArrayList<>();
         Integer num = 1;
@@ -68,6 +77,9 @@ public class Proof {
         startProof();
     }
 
+    /**
+     * Método de entrada de uma palavra e impressão da sequência de caracteres.
+     */
     private static void proofCharSequence() {
         String word = "a";
         Scanner scanner = new Scanner(System.in);

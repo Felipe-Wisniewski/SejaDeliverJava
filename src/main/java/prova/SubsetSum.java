@@ -2,6 +2,10 @@ package prova;
 
 import java.util.ArrayList;
 
+/**
+ * Classe responsável pelo cálculo do subconjunto em que a soma dos elementos são de máxima soma.
+ * @author Felipe Wisniewski
+ */
 public class SubsetSum {
 
     private ArrayList<Integer> set;
